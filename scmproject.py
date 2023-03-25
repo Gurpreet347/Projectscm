@@ -151,6 +151,13 @@ if(out == '0'):
         g=g+1
     else:
         x=x-1.5
+    print("21) Which country has recently approved India as a wheat supplier?")
+    answer_21 = input("a) UAE\nb) The Netherlands\nc) Egypt\nd Australia\n")
+    if answer_21.lower() == "c":
+        x = x + 5
+        g = g+1
+    else:
+        x = x-1.5
     right=g
     print("total no. of right answers:",right)
     score = float(x / 100) * 100
