@@ -152,8 +152,8 @@ if(out == '0'):
     else:
         x=x-1.5
     
-    right=g
-    print("total no. of right print("22)Which state launched the ‘Mukhyamantri Vriksh Sampada Yojana’?")
+    
+    print("22)Which state launched the ‘Mukhyamantri Vriksh Sampada Yojana’?")
     answer_22 = input("a) odisha\nb) chattisgarh\nc) west bengal\nd) gujrat\ne)skip\n")
     if answer_22.lower() == "b":
         x = x + 5
@@ -167,7 +167,8 @@ if(out == '0'):
         g=g+1
     else:
         x=x-2.5
- answers:",right)
+    right=g
+    print("total no. of right answers:",right)
     score = float(x / 100) * 100
     print(x,"out of 100,\nthat is",score, "%")
     if score<=100/3:
