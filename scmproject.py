@@ -207,5 +207,4 @@ if(out == '0'):
           print("🤷‍♂\ndisappointing scores")
     else:
         print("😊\ncongratulations!\nperfect")
-        print("22)Which state launched the 'Mukhyamantri Vriksh Sampada Yojana'?")
-    
+        
