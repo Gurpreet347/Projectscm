@@ -175,6 +175,25 @@ if(out == '0'):
     else:
         x = x-1.5
     right=g
+    print("24)Which city is the host of ‘Global Millets (Shree Anna) Conference’?")
+    answer_24 = input("a) odisha\nb) new delhi\nc) west bengal\nd) gujrat\ne)skip\n")
+    if answer_24.lower() == "b":
+        x = x + 5
+        g=g+1
+    elif answer_24=="e":
+        print("••skiped last question••")
+    else:
+        x=x-2.5
+    print("25)Which institution launched ‘ATL Sarthi’, a comprehensive self-monitoring framework?")
+    answer_25 = input("a) rbi\nb) sebi\nc) niti ayog\nd) bse\ne)skip\n")
+    if answer_25.lower() == "c":
+        x = x + 5
+        g=g+1
+    elif answer_25=="e":
+        print("••skiped last question••")
+    else:
+        x=x-2.5
+
     print("total no. of right answers:",right)
     score = float(x / 100) * 100
     print(x,"out of 100,\nthat is",score, "%")
@@ -188,3 +207,17 @@ if(out == '0'):
           print("🤷‍♂\ndisappointing scores")
     else:
         print("😊\ncongratulations!\nperfect")
+        print("22)Which state launched the 'Mukhyamantri Vriksh Sampada Yojana'?")
+    answer_22 = input("a) odisha\nb) chattisgarh\nc) west bengal\nd) gujrat\ne)skip\n")
+    if answer_22.lower() == "b":
+        x = x + 5
+        g=g+1
+    else:
+        x=x-2.5
+    print("23)Which state is the key state partner of the International SME Convention 2023 (ISC)?")
+    answer_23 = input("a) odisha\nb) MP\nc) west bengal\nd) gujrat\ne)skip\n")
+    if answer_23.lower() == "b":
+        x = x + 5
+        g=g+1
+    else:
+        x=x-2.5
