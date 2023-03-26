@@ -153,20 +153,27 @@ if(out == '0'):
         x=x-1.5
     
     
-    print("22)Which state launched the ‘Mukhyamantri Vriksh Sampada Yojana’?")
-    answer_22 = input("a) odisha\nb) chattisgarh\nc) west bengal\nd) gujrat\ne)skip\n")
+    print("21)Which state launched the ‘Mukhyamantri Vriksh Sampada Yojana’?")
+    answer_21 = input("a) odisha\nb) chattisgarh\nc) west bengal\nd) gujrat\ne)skip\n")
+    if answer_21.lower() == "b":
+        x = x + 5
+        g=g+1
+    else:
+        x=x-2.5
+    print("22)Which state is the key state partner of the International SME Convention 2023 (ISC)?")
+    answer_22 = input("a) odisha\nb) MP\nc) west bengal\nd) gujrat\ne)skip\n")
     if answer_22.lower() == "b":
         x = x + 5
         g=g+1
     else:
         x=x-2.5
-    print("23)Which state is the key state partner of the International SME Convention 2023 (ISC)?")
-    answer_23 = input("a) odisha\nb) MP\nc) west bengal\nd) gujrat\ne)skip\n")
-    if answer_23.lower() == "b":
+    print("23) Which country has recently approved India as a wheat supplier?")
+    answer_23 = input("a) UAE\nb) The Netherlands\nc) Egypt\nd Australia\n")
+    if answer_23.lower() == "c":
         x = x + 5
-        g=g+1
+        g = g+1
     else:
-        x=x-2.5
+        x = x-1.5
     right=g
     print("total no. of right answers:",right)
     score = float(x / 100) * 100
