@@ -8,7 +8,7 @@ if out != '0':
     print('YOU EXITED QUIZ\nTRY AGAIN')
 if(out == '0'):
     g=0
-    right=g
+    right= g
     x = 0
     score = x
     print("1)Which institution released a report titled ‘Carbon Capture, Utilisation, and Storage Policy Framework?")
