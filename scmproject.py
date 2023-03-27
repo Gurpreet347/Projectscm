@@ -171,4 +171,4 @@ if(out == '0'):
     elif score<=50:
           print("🤷‍♂\ndisappointing scores")
     else:
-        print("😊\ncongratulations!\nperfect")
+        print("😊\ncongratulations !\nperfect")
